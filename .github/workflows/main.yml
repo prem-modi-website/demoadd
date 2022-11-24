@@ -5,13 +5,13 @@ on:
 name: Publish Website
 jobs:
   FTP-Deploy-Action:
-    name: my-project
+    name: demoadd
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2.1.0
       with:
           fetch-depth: 2
-    - name: my-project
+    - name: demoadd
       uses: SamKirkland/FTP-Deploy-Action@v3.1.1
       with:
         ftp-server: 184.168.116.137

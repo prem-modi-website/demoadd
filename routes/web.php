@@ -14,7 +14,7 @@ use App\Services\AuthServices;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//data
 
 Route::get('/',[App\Http\Controllers\AuthController::class,'index'])->name('login');
 Route::post('/authenticate',[App\Http\Controllers\AuthController::class,'authenticate'])->name('authenticate');

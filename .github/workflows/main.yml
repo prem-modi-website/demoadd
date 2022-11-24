@@ -15,5 +15,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v3.1.1
       with:
         ftp-server: 184.168.116.137
-        ftp-username: prem@thebestbeta.com
+        ftp-username: modi@thebestbeta.com
         ftp-password: ${{ secrets.PROD_FTP_PASSWORD }}
